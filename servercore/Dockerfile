@@ -1,5 +1,4 @@
-# FROM mcr.microsoft.com/windows/servercore:ltsc2019
-FROM  mcr.microsoft.com/windows/nanoserver:1903
+FROM mcr.microsoft.com/windows/servercore:ltsc2019
 
 RUN mkdir kit
 COPY openfire_4_6_0_bundledJRE_x64.exe /kit
